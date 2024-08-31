@@ -1,0 +1,9 @@
+package model;
+
+public class Button {
+//	for external button
+	public void pressButton(int floor, Direction dir) {}
+	
+//	for internal button
+	public void pressButton(int floor, Direction dir, int elevatorId) {}
+}
